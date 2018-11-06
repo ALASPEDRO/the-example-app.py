@@ -18,7 +18,7 @@ from routes.imprint import imprint
 from routes.settings import settings
 
 
-DEFAULT_PORT = 8080
+DEFAULT_PORT = 80
 STATIC_FOLDER_PATH = os.path.join(os.path.dirname(__file__), 'public')
 
 # Load global settings
