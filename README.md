@@ -45,7 +45,7 @@ To start the server, run the following
 make run
 ```
 
-Open [http://localhost:3000](http://localhost:3000) and take a look around.
+Open [http://localhost:80](http://localhost:80) and take a look around.
 
 
 ## Steps for read and write access (recommended)
@@ -74,7 +74,7 @@ CONTENTFUL_SPACE_ID=<SPACE_ID>
 CONTENTFUL_DELIVERY_TOKEN=<DELIVERY_ACCESS_TOKEN>
 CONTENTFUL_PREVIEW_TOKEN=<PREVIEW_ACCESS_TOKEN>
 SESSION_SECRET=someSecretTokenHere
-PORT=3000
+PORT=80
 ```
 
 Step 7: To start the server, run the following
@@ -83,7 +83,7 @@ make run
 ```
 Final Step:
 
-Open [http://localhost:3000?editorial_features=enabled](http://localhost:3000?editorial_features=enabled) and take a look around. This URL flag adds an “Edit” button in the app on every editable piece of content which will take you back to Contentful web app where you can make changes. It also adds “Draft” and “Pending Changes” status indicators to all content if relevant.
+Open [http://localhost:80?editorial_features=enabled](http://localhost:80?editorial_features=enabled) and take a look around. This URL flag adds an “Edit” button in the app on every editable piece of content which will take you back to Contentful web app where you can make changes. It also adds “Draft” and “Pending Changes” status indicators to all content if relevant.
 
 ## Deploy to Heroku
 You can also deploy this app to Heroku:
